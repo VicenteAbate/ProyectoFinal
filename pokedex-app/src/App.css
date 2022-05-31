@@ -1,0 +1,434 @@
+/* Aca tenemos los colores para cada pokemon*/
+
+.Rock {
+  color: #B69E31;
+  background-color: #B69E31;
+}
+
+.Ghost {
+  color: #70559B;
+  background-color: #70559B
+}
+
+.Steel {
+  color: #B7B9D0;
+  background-color: #B7B9D0
+}
+
+.Water {
+  color: #6493EB;
+  background-color: #6493EB
+}
+
+.Grass {
+  color: #74CB48;
+  background-color: #74CB48;
+}
+
+.Psychic {
+  color: #FB5584;
+  background-color: #FB5584
+}
+
+.Ice {
+  color: #9AD6DF;
+  background-color: #9AD6DF
+}
+
+.Dark {
+  color: #75574C;
+  background-color: #75574C
+}
+
+.Fairy {
+  color: #E69EAC;
+  background-color: #E69EAC
+}
+
+.Normal {
+  color: #AAA67F;
+  background-color: #AAA67F
+}
+
+.Fighting {
+  color: #C12239;
+  background-color: #C12239
+}
+
+.Flying {
+  color: #A891EC;
+  background-color: #A891EC
+}
+
+.Poison {
+  color: #A43E93;
+  background-color: #A43E93
+}
+
+.Ground {
+  color: #DEC16B;
+  background-color: #DEC16B
+}
+
+.Bug {
+  color: #A7B723;
+  background-color: #A7B723;
+}
+
+.Fire {
+  color: #F57D31;
+  background-color: #F57D31
+}
+
+.Electric {
+  color: #F9CF30;
+  background-color: #F9CF30
+}
+
+.Dragon {
+  color: #7037FF;
+  background-color: #7037FF
+}
+
+.DarkGray {
+  background-color: #212121
+}
+
+.MediumGray {
+  background-color: #666666
+}
+
+.LightGray {
+  background-color: #E0E0E0
+}
+
+.White {
+  background-color: #FFFFFF
+}
+
+.Background {
+  background-color: #F7F7F7
+}
+
+#Pokeball {
+  width: 40px;
+}
+
+#Img-pokemons-buscador {
+  width: 160px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.div-Buscador {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+/* Aca empiezan los estilos para la parte del buscador */
+
+.Pokeball-titulo {
+  width: 40px;
+}
+
+.separacion-pokemons {
+  border: 2px solid;
+  border-radius: 8px;
+  margin-top: 15px;
+  background-color: white;
+  min-width: 184px;
+}
+
+.small-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: solid 1px;
+  max-width: 600px;
+  padding: 26px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+
+.Buscador-box {
+  margin: 10px;
+
+}
+
+.titulo-h1-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-buscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-buscador-pokemons {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.id-buscador {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.color-id-buscador {
+  background-color: white;
+  font-size: 1.5rem;
+
+}
+
+.pokemons-buscador {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.Img-pokemons-buscador {
+  width: 100px;
+  ;
+
+}
+
+.nombre-buscador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 6px;
+}
+
+.color-nombre--buscador {
+  color: white;
+}
+
+/* Aca terminan los estilos para la parte del buscador*/
+
+.card-pokemon-id {
+  color: white;
+}
+
+.poke-name {
+  color: white;
+}
+
+.h3-about {
+  background-color: white;
+}
+
+.elementos-parrafo {
+  color: white;
+}
+
+
+.tarjeta-general {
+  border: solid 2px;
+  border-radius: 13px;
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.poke-name::before {
+  content: url(./img/arrow-left.svg);
+  vertical-align: middle;
+  margin-right: 5px;
+
+}
+
+.nombre-id-tarjeta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 175px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.nombre-id-tarjeta p {
+  position: absolute;
+  right: 15px;
+  font-size: 12px;
+  top: 0;
+}
+
+.nombre-id-tarjeta h2 {
+  padding-left: 10px;
+}
+
+.nombre-id-tarjeta img {
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.elements-span {
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.elements-span p {
+  border: solid 1px;
+  border-radius: 50px;
+  padding: 5px 13px;
+  font-weight: bold;
+}
+
+.elements-span p {
+  margin: 10px;
+}
+
+.contenido-inferior {
+  border: solid 3px;
+  border-radius: 13px;
+  margin: 5px;
+  padding-top: 15px;
+  min-height: 530px;
+  background-color: white;
+}
+
+.imagen {
+  position: absolute;
+  top: 140px;
+  left: 95px;
+}
+
+.itmes-about {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  text-align: left;
+  max-width: 100px;
+  justify-content: center;
+
+}
+
+.list-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+}
+
+.subtitles-about {
+  font-weight: lighter;
+  padding-top: 5px;
+  word-wrap: normal;
+
+}
+
+.weight-icon::before {
+  content: url(img/Weight.svg);
+  padding-right: 5px;
+  vertical-align: middle;
+
+}
+
+.height-icon::before {
+  content: url(img/Height.svg);
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.itmes-about.height {
+  border-right: solid 1px;
+  border-left: solid 1px;
+  padding: 0 20px;
+}
+
+.pokemon-info {
+  font-size: 14px;
+  padding: 10px;
+  text-align: left;
+  color: black;
+}
+
+.table-elements {
+  font-weight: bold;
+  border-right: solid 1px;
+  text-align: center;
+  padding-right: 20px;
+  background-color: white;
+}
+
+.table-numbers {
+  padding-left: 20px;
+  color: black;
+}
+
+.lists-base-stats {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
