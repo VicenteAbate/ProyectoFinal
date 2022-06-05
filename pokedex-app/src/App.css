@@ -432,3 +432,13 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+
+.nuevo-pokemon-btn {
+  margin: 20px;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: springgreen;
+  font-weight: 900;
+}

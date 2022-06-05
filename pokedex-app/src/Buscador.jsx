@@ -47,19 +47,6 @@ export default Buscador;
 
 
 
-/*  <h3>About</h3>
-      <span><b>WEIGHT</b>{pokemon.about.weight}</span> <br/>
-      <span><b>HEIGHT</b>{pokemon.about.height}</span> <br/>
-      <span><b>MOVES</b>{pokemon.about.moves}</span> <br/>
-      {pokemon.info}<br/>
-      <h3>Base Stats</h3>
-      <span><b>HP</b>{pokemon.baseStats.hp}</span> <br/>
-      <span><b>ATK</b>{pokemon.baseStats.atk}</span> <br/>
-      <span><b>DEF</b>{pokemon.baseStats.def}</span> <br/>
-      <span><b>SATK</b>{pokemon.baseStats.satk}</span> <br/>
-      <span><b>SDEF</b>{pokemon.baseStats.sdef}</span> <br/>
-      <span><b>SPN</b>{pokemon.baseStats.spd}</span> <br/>
-       */
 
 
 
