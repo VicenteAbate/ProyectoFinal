@@ -442,3 +442,25 @@ ul {
   background-color: springgreen;
   font-weight: 900;
 }
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 3px;
+}
+
+.form-nuevo-pkmn {
+  margin: 20px;
+  margin-top: 5px;
+  border: solid;
+  border-radius: 10px;
+  max-width: 205px;
+  background-color: springgreen;
+  text-align: center;
+  font-weight: 900;
+}
+
+.input-form {
+  border-radius: 10px;
+}
