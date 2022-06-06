@@ -434,6 +434,8 @@ ul {
 }
 
 
+
+
 .nuevo-pokemon-btn {
   margin: 20px;
   border: solid;
@@ -442,6 +444,13 @@ ul {
   background-color: springgreen;
   font-weight: 900;
 }
+
+.nuevo-pokemon-btn:hover{
+  background-color: springgreen;
+  box-shadow: 0 0 30px springgreen;
+}
+
+
 
 .form-div {
   display: flex;
@@ -469,3 +478,43 @@ ul {
   display: flex;
   
 } */
+
+
+
+.login-button {
+  margin: 20px;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: springgreen;
+  font-weight: 900;
+}
+
+.login-button:hover{
+  background-color: springgreen;
+  box-shadow: 0 0 30px springgreen;
+}
+
+
+.form-div-login {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 3px;
+}
+
+.input-form {
+  border-radius: 10px;
+}
+
+
+.form-login{
+  margin: 20px;
+  margin-top: 5px;
+  border: solid;
+  border-radius: 10px;
+  max-width: 205px;
+  background-color: springgreen;
+  text-align: center;
+  font-weight: 900;
+}
