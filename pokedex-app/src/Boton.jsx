@@ -12,7 +12,7 @@ const Boton = (props) => {
                 <form action="" className="form-nuevo-pkmn">
                     <div className="form-sections">
                     <span>Pomekon Info</span>
-                    <div className="form-div">
+                    <div className="form-div">np
                         <label htmlFor="">Name</label><input type="text" className="input-form" required />
                     </div>
                     <div className="form-div">
