@@ -56,7 +56,7 @@ const UserLogin = (props) => {
                             <label htmlFor="">Email</label><input
                                 value={userName}
                                 id="pkmn"
-                                type="text"
+                                type="mail"
                                 name="pkmn"
                                 placeholder="Username or Email"
                                 className="input-form"
