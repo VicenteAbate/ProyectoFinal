@@ -73,7 +73,7 @@ const UserLogin = (props) => {
                                 onChange={onChangeUserPass} required />
                         </div>
                         <div className="form-div-login">
-                            <button className="login-button">Enviar</button>
+                            <button onClick={onClick} className="login-button">Enviar</button>
                         </div>
                     </div>
                 </form>
