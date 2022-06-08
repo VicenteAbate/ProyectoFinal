@@ -58,7 +58,7 @@ const UserLogin = (props) => {
                                 id="pkmn"
                                 type="mail"
                                 name="pkmn"
-                                placeholder="Username or Email"
+                                placeholder="Email"
                                 className="input-form"
                                 onChange={onChangeUserName} required />
                         </div>
