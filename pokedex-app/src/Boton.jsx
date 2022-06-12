@@ -4,7 +4,7 @@ import { useState } from "react";
 const Boton = (props) => {
 
     const [pokemonName, setPokemonName] = useState();
-    const [pokemonId, setPokemonId] = useState();
+    const [pokemonCode, setPokemonCode] = useState();
     const [pokemonPhoto, setPokemonPhoto] = useState();
     const [pokemonElement1, setPokemonElement1] = useState();
     const [pokemonElement2, setPokemonElement2] = useState();
@@ -23,8 +23,8 @@ const Boton = (props) => {
         setPokemonName(e.target.value);
     };
 
-    const onChangePokemonId = (e) => {
-        setPokemonId(e.target.value);
+    const onChangePokemonCode = (e) => {
+        setPokemonCode(e.target.value);
     };
 
     const onChangePokemonPhoto = (e) => {
@@ -92,7 +92,7 @@ const Boton = (props) => {
                     "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
-                    id: pokemonId,
+                    code: pokemonCode,
                     name_pokemon: pokemonName,
                     info_pokemon: pokemonInfo,
                     img: pokemonPhoto,
@@ -145,12 +145,12 @@ const Boton = (props) => {
                                 required />
                         </div>
                         <div className="form-div">
-                            <label htmlFor="">ID</label>
+                            <label htmlFor="">Code</label>
                             <input 
-                                id="pokemonId"
-                                value={pokemonId}
-                                name="pokemonId" 
-                                onChange={onChangePokemonId}
+                                id="pokemonCode"
+                                value={pokemonCode}
+                                name="pokemonCode" 
+                                onChange={onChangePokemonCode}
                                 type="number" 
                                 className="input-form" 
                                 required />
