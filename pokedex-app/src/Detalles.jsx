@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-//import Pokemons from "./pokemons.js";
 import CardPokemon from "./CardPokemon"
 
 const Detalles = () => {
