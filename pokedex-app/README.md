@@ -1,6 +1,11 @@
+# Proyecto Final trabajo Bootcamp Senpai Academy
+Esta app conectada con el back-end nos imprime tarjetas pokemons, con una funcionalidad de buscador, log ing y un formulario para
+agregar pokemons en el back-end.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Created by Vicente Abate & Natalia Ciraolo
 
 ## Available Scripts
 
