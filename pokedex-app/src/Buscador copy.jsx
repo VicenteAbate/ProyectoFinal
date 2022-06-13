@@ -1,45 +1,14 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Pokemons from "./pokemons.js";
 import pokeball from "./img/Pokeball.png"
 
 
 
-
 const Buscador = () => {
 
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState("")
 
-  const [pokemons, setPokemons] = useState([]);
-
- // const pokemons = Pokemons();
- // const pokemons = Pokemons();
-
- console.log('1');
-  useEffect(() => {
-    const getData = async () => {
-      console.log('1');
-      try {
-        const respuesta = await fetch("http://localhost:3000/pkmn/pokemon", {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          }
-        });
-        console.log('1');
-        const respuestaJson = await respuesta.json();
-        console.log(respuestaJson.data)
-        setPokemons(respuestaJson.data);
-      } catch (error) {
-        console.log(error)
-        console.log('1');
-      };
-
-    }
-    getData();
-  }, []);
-
-
-  console.log(pokemons);
+  const pokemons = Pokemons()
 
   const filterPokemons = (pokemones) => pokemones.filter((pokemon) => pokemon.name.toLowerCase().includes(searchTerm.toLowerCase()))
 
