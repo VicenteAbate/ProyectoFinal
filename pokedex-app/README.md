@@ -5,7 +5,7 @@ agregar pokemons en el back-end.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Created by Vicente Abate & Natalia Ciraolo
+Created by Vicente Abate, Natalia Ciraolo & Nicolás Ribeiro
 
 ## Available Scripts
 
