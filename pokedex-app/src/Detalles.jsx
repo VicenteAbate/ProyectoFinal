@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Pokemons from "./pokemons.js";
+//import Pokemons from "./pokemons.js";
 import CardPokemon from "./CardPokemon"
 
 const Detalles = () => {
@@ -10,17 +10,22 @@ const Detalles = () => {
         const getData = async () => {
 
             try {
-                const response = Pokemons();
-
-                setListaPokemons(response);
-
-
-            } catch (error) {
-                console.log("Hay un error en tu API");
-
+                const respuesta = await fetch("http://localhost:3000/pkmn/pokemon", {
+                  method: "GET",
+                  headers: {
+                    "Content-Type": "application/json",
+                  }
+                });
+           
+                const respuestaJson = await respuesta.json();
+                console.log(respuestaJson.data)
+                setListaPokemons(respuestaJson.data);
+              } catch (error) {
+                console.log(error)
+               
+              };
+        
             }
-
-        }
         getData();
     }, []);
 

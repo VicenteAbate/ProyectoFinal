@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Pokemons from "./pokemons.js";
+//import Pokemons from "./pokemons.js";
 import pokeball from "./img/Pokeball.png"
 
 
@@ -14,10 +14,10 @@ const Buscador = () => {
  // const pokemons = Pokemons();
  // const pokemons = Pokemons();
 
- console.log('1');
+
   useEffect(() => {
     const getData = async () => {
-      console.log('1');
+    
       try {
         const respuesta = await fetch("http://localhost:3000/pkmn/pokemon", {
           method: "GET",
@@ -25,13 +25,13 @@ const Buscador = () => {
             "Content-Type": "application/json",
           }
         });
-        console.log('1');
+   
         const respuestaJson = await respuesta.json();
         console.log(respuestaJson.data)
         setPokemons(respuestaJson.data);
       } catch (error) {
         console.log(error)
-        console.log('1');
+       
       };
 
     }
