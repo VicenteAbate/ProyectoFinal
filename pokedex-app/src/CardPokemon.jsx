@@ -20,7 +20,7 @@ const CardPokemon = (props) => {
                     <img id="Img-pokemons-buscador" src={pokemon.img} alt="figura pokemon" className="imagen" />
                     <span className="elements-span">
                         <p className={`${"elementos-parrafo"} ${pokemon.elements.element1}`}>{pokemon.elements.element1}</p>
-                        {pokemon.elements.element2 != null && <p>{pokemon.elements.element2}</p>}
+                        {pokemon.elements.element2 != "" && <p>{pokemon.elements.element2}</p>}
                     </span>
                 </figure>
                 <div>
